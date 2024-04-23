@@ -1,0 +1,68 @@
+[class*='icon-'] {
+  font-family: 'iconfont';
+  font-size: 16px;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4389406 */
+  src: url('//at.alicdn.com/t/c/font_4389406_ok4v28sf2qc.woff2?t=1706436340814') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4389406_ok4v28sf2qc.woff?t=1706436340814') format('woff'),
+       url('//at.alicdn.com/t/c/font_4389406_ok4v28sf2qc.ttf?t=1706436340814') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiugai:before {
+  content: "\e700";
+}
+
+.icon-tianjia:before {
+  content: "\e641";
+}
+
+.icon-jurassic_bbs:before {
+  content: "\e698";
+}
+
+.icon-chat-full:before {
+  content: "\e9b1";
+}
+
+.icon-xiai:before {
+  content: "\e600";
+}
+
+.icon-icon-test:before {
+  content: "\e6da";
+}
+
+.icon-yueliang:before {
+  content: "\e6cc";
+}
+
+.icon-Arrow2-Left:before {
+  content: "\e69c";
+}
+
+.icon-Arrow2-Right:before {
+  content: "\e69d";
+}
+
+.icon-a-44tubiao-09:before {
+  content: "\e692";
+}
+
+.icon-a-44tubiao-75:before {
+  content: "\e697";
+}
+
+.icon-a-44tubiao-112:before {
+  content: "\e69a";
+}

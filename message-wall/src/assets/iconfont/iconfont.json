@@ -1,0 +1,58 @@
+{
+  "id": "4389406",
+  "name": "MessageWall",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9396630",
+      "name": "太阳",
+      "font_class": "icon-test",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "9594839",
+      "name": "月亮",
+      "font_class": "yueliang",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "25511631",
+      "name": "Arrow2-Left",
+      "font_class": "Arrow2-Left",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "25511632",
+      "name": "Arrow2-Right",
+      "font_class": "Arrow2-Right",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "38644615",
+      "name": "喜欢",
+      "font_class": "a-44tubiao-09",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "38644680",
+      "name": "添加",
+      "font_class": "a-44tubiao-75",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "38644720",
+      "name": "消息",
+      "font_class": "a-44tubiao-112",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    }
+  ]
+}
