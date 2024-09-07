@@ -228,7 +228,6 @@ function getWallCard(id) {
     }
 
     findWallPageApi(data).then((res) => {
-      console.log(res);
       state.DataCard = state.DataCard.concat(res.message)
       if (res.message.length) {
         state.page++

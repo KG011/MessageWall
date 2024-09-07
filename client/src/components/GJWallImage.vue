@@ -17,14 +17,32 @@ computed({
 const state=reactive({
   baseUrL:baseUrL
 })
+// document.addEventListener("DOMContentLoaded", function() {
+//     var lazyImages = [].slice.call(document.querySelectorAll("img.lazy-load"));
+
+//     function lazyLoad() {
+//         lazyImages.forEach(function(img) {
+//             if (img.offsetTop < window.innerHeight + window.scrollY) {
+//                 img.src = img.getAttribute("data-src");
+//                 img.classList.remove("lazy-load");
+//             }
+//         });
+//     }
+
+//     lazyLoad();
+//     window.addEventListener("scroll", lazyLoad);
+// });
+
+
 
 </script>
 
 <template>
-  <div class="photo-card">
+  <div class="photo-card" v-lazy-container>
     <div class="me" v-if="props.PhotoData.name==username">我</div>
     <div class="photo-bg"></div>
     <img :src="baseUrL+props.PhotoData.imgurl">
+    <!-- <img :data-src="../assets/wall.png"  class="lazy-load"> -->
   </div>
 </template>
 
